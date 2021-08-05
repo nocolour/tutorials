@@ -2,7 +2,7 @@ Python setup from source with Tcl/Tk support
 
 sudo apt update \
 sudo apt install tk8.6 tk8.6-dev \
-sudo apt install lzma lzma-dev \
+sudo apt install lzma lzma-dev liblzma-dev \
 sudo apt install libncurses-dev libgdbm-dev libz-dev tk-dev libsqlite3-dev libreadline-dev liblzma-dev libffi-dev libssl-dev
 
 
