@@ -3,7 +3,8 @@ Python setup from source with Tcl/Tk support
 sudo apt update \
 sudo apt install tk8.6 tk8.6-dev \
 sudo apt install lzma lzma-dev liblzma-dev \
-sudo apt install libncurses-dev libgdbm-dev libz-dev tk-dev libsqlite3-dev libreadline-dev liblzma-dev libffi-dev libssl-dev
+sudo apt install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev libsqlite3-dev wget libbz2-dev
+#sudo apt install libncurses-dev libgdbm-dev libz-dev tk-dev libsqlite3-dev libreadline-dev liblzma-dev libffi-dev libssl-dev
 
 
 ./configure --enable-optimizations \
